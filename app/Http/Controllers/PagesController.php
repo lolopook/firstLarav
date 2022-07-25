@@ -19,7 +19,7 @@ class PagesController extends Controller
 
         // return $data; // die.
 
-        return view("welcome",compact("data"));
+        return view("welcome",compact("data")); // ("data") => $data
     }
 
     // ajout d'un var dans la page a-propos.blade
@@ -27,7 +27,7 @@ class PagesController extends Controller
     {
         $nom = "John Doe";
         return view("a-propos",compact("nom"));
-                                 // [ "nom" => $nom ]
+                                // [ "nom" => $nom ]
     }
 
     public function contact()
