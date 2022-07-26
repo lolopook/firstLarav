@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CarController;
 use App\Http\Controllers\PagesController;
 use Illuminate\Support\Facades\Route;
 
@@ -18,5 +19,6 @@ Route::get('/',[PagesController::class, "home"])->name("home");
 
 // Ici je crée une nouvelle route pour que le message "hello wold"
 Route::get('/a-propos',[PagesController::class, "about"])->name("about");
-
 Route::get("/contact", [PagesController::class,"contact"])->name("contact");
+Route::get("/cars", [CarController::class, "index"])->name("cars.index");
+Route::get("/cars/{car}", [CarController::class, "show"])->name("cars.show");

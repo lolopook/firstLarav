@@ -1,6 +1,4 @@
 @extends('layouts.app')
-    {{--  extennd permets  --}}
-
 
 
 @section('content')
