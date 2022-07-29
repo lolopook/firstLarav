@@ -7,7 +7,7 @@
     <title>lavacars</title>
     <link rel="shortcut icon" href="https://apache.org/favicons/android-chrome-192x192.png" type="image/x-icon">
 
-    @vite(["resources/css/app.css","resources/js/app.js"])
+    @vite(["resources/css/app.scss","resources/js/app.js"])
 </head>
 <body>
     {{-- ici --}}
