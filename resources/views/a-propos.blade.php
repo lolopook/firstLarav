@@ -8,3 +8,5 @@
     <h2> {{ $nom }} </h2>
     
 @endsection
+
+

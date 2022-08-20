@@ -5,3 +5,6 @@
     {{-- permet de remplir la sessions --}}
     <h1>Contact</h1>
 @endsection
+
+
+// les blade ne foncitonne pas  !
